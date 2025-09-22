@@ -8,7 +8,6 @@ const s3 = new S3Client({
         accessKeyId: "",
         secretAccessKey: "",
     },
-    forcePathStyle: true,   // 路径风格
 });
 
 export default s3;
